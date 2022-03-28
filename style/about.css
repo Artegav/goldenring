@@ -1,0 +1,105 @@
+.nav {
+  overflow: hidden;
+  background-color: #333;
+  font-family: "Abel", sans-serif;
+}
+
+.nav a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 20.5px 32.5px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20.5px 32.5px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.nav a:hover,
+.dropdown:hover .dropbtn {
+  color: black;
+  background-color: #ddd;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body {
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  font-family: "Abel", sans-serif;
+}
+#avatar {
+  border: 3px solid black;
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 30%;
+}
+#avatar > img {
+  border-radius: 30%;
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+.main_inf {
+  border: 1px black;
+  text-align: center;
+  color: black;
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
+}
+p {
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 20px;
+}
+
+.information {
+  display: inline-block;
+  width: 300px;
+  color: black;
+  margin-left: 100px;
+}
+.cont {
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+}
